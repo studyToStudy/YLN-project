@@ -17,13 +17,34 @@ struct ContentView: View {
     //    private var items: FetchedResults<Item>
     
     var body: some View {
+        OnBoardingView()
         TabView {
             FeedView()
                 .tabItem {
                     Image(systemName: "house")
-                    Text("Home")
+                }
+            SearchView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+//                    Text("Search")
+                }
+            AddView()
+                .tabItem {
+                    Image(systemName: "plus.app")
+//                    Text("Mark")
+                }
+            InterestView()
+                .tabItem {
+                    Image(systemName: "bookmark.circle")
+//                    Text("Mark")
+                }
+            MyInfoView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+//                    Text("My Info")
                 }
         }
+//        .font(.title)
     }
     
     struct ContentView_Previews: PreviewProvider {
