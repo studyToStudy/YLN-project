@@ -11,33 +11,36 @@ struct MyInfoView: View {
     @State var stack = NavigationPath()
 
     var body: some View {
-        NavigationStack(path: $stack) {
-                    List {
-                        Section {
-//                            NavigationLink()
-                            Image(systemName: "person")
+        NavigationView {
+            List {
+                Section {
+                    NavigationLink {
+                        Text("프로필화면")
+                    } label: {
+                        HStack{
+                            Image(systemName: "person.circle")
                                 .resizable()
+                                .aspectRatio(contentMode: .fit)
                                 .frame(width: 40, height: 40)
                                 .padding(.all, 10)
                                 .clipShape(Circle())
+                            
                             VStack(alignment: .leading, spacing: 3) {
                                 Text("이름")
+                                    .font(.system(size: 24))
+                                    .fontWeight(.regular)
                             }
-//                            NavigationLink("Pink", value: "2")
-//                            NavigationLink("Teal", value: "3")
-//                            NavigationLink("회원탈퇴", value: "4")
+                            .padding(.leading, 6)
                         }
-                        .navigationDestination(for: String.self) { value in
-                            Text("Child Number \(value)")
-                            Button("뒤로가기") {
-                                stack.removeLast()
-                            }
-                        }
-                        .navigationTitle("내 정보")
+                        .padding(.vertical, 10)
                     }
-                        }
+                }
+                    .navigationTitle("내 정보")
+                }
+            }
+        }
     }
-}
+
 
 struct MyInfoView_Previews: PreviewProvider {
     static var previews: some View {
