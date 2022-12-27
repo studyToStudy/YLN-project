@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct MyInfoView: View {
-    @State var stack = NavigationPath()
-
+    @State var tag: Int? = nil
+    
     var body: some View {
+        
+        let menuList = ["프로필 편집"]
+        
         NavigationView {
             List {
                 Section {
-                    NavigationLink {
+                    NavigationLink() {
                         Text("프로필화면")
                     } label: {
                         HStack{
@@ -35,11 +38,26 @@ struct MyInfoView: View {
                         .padding(.vertical, 10)
                     }
                 }
-                    .navigationTitle("내 정보")
-                }
+                    ZStack {
+                        NavigationLink(destination: ProfilEditView()) {
+                            Text("프로필 편집")
+                        }.buttonStyle(PlainButtonStyle())
+//                        .foregroundColor(.blue)
+//                        .opacity(0)
+                        
+//                    label: {
+//                            Text("프로필 편집")
+//                                .padding(.vertical)
+//                                .frame(maxWidth: .infinity)
+//                        }
+                    }
+//                .resizable()
+                .buttonStyle(PlainButtonStyle())
+                .navigationTitle("내 정보")
             }
         }
     }
+}
 
 
 struct MyInfoView_Previews: PreviewProvider {

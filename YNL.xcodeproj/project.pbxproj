@@ -22,6 +22,7 @@
 		DB3F2C43295AC4F70014217D /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C42295AC4F70014217D /* MyInfoView.swift */; };
 		DB3F2C45295AC5990014217D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C44295AC5990014217D /* AddView.swift */; };
 		DB3F2C47295AC93D0014217D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C46295AC93D0014217D /* OnBoardingView.swift */; };
+		DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		DB3F2C42295AC4F70014217D /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
 		DB3F2C44295AC5990014217D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3F2C46295AC93D0014217D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				DB3F2C44295AC5990014217D /* AddView.swift */,
 				DB3F2C40295AC4A70014217D /* InterestView.swift */,
 				DB3F2C42295AC4F70014217D /* MyInfoView.swift */,
+				DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				DB3F2C47295AC93D0014217D /* OnBoardingView.swift in Sources */,
 				DB3F2C41295AC4A70014217D /* InterestView.swift in Sources */,
 				DB3F2C15295A93070014217D /* Persistence.swift in Sources */,
+				DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */,
 				DB3F2C0E295A93060014217D /* ContentView.swift in Sources */,
 				DB3F2C0C295A93060014217D /* YNLApp.swift in Sources */,
 				DB3F2C3F295AC3E20014217D /* SearchView.swift in Sources */,
