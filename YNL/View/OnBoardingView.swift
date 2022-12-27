@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct OnBoardingView: View {
+    @AppStorage("_isFirstLaunching") var isFirstLaunching: Bool = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("OnBoarding View!")
+//            .fullScreenCover(isPresented: $isFirstLaunching) {
+//                OnBoardingView(isFirstLaunching: isFirstLaunching)
+//            }
     }
 }
 
