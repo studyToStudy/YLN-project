@@ -10,6 +10,9 @@ import PhotosUI
 
 struct AddView: View {
     @StateObject var imagePicker = ImagePicker()
+    @State private var selectedItems: [PhotosPickerItem] = []
+    @State private var selectedItem: PhotosPickerItem?
+    
     let columns = [GridItem(.adaptive(minimum: 100))]
     var body: some View {
         NavigationStack {
@@ -25,23 +28,31 @@ struct AddView: View {
                         }
                     }
                 } else {
-                    Text("사진이 없습니다!")
+                    Text("등록된 사진이 없습니다!")
                 }
             }
             .padding()
             .navigationTitle("사진업로드")
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    PhotosPicker(selection: $imagePicker.imageSelections, maxSelectionCount: 10, matching: .images,
-                                 photoLibrary: .shared()) {
-                        Image(systemName: "photo.on.rectangle.angled")
-                            .imageScale(.large)
+                ToolbarItem(placement: .bottomBar) {
+//                    PhotosPicker(selection: $imagePicker.imageSelections, maxSelectionCount: 10, matching: .images,
+//                                 photoLibrary: .shared()) {
+//                         Image(systemName: "photo.on.rectangle.angled")
+//                            .imageScale(.large)
+//                    }
+                    PhotosPicker(selection: $imagePicker.imageSelections, matching: .any(of:
+                                                                            [.images, .not(.livePhotos)])) {
+                        Label("Select a photo", systemImage: "photo")
                     }
+                        .tint(.purple)
+                        .controlSize(.large)
+                        .buttonStyle(.borderedProminent)
                 }
             }
         }
     }
 }
+
 
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {

@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct SearchView: View {
+    @AppStorage("exText") var exText = ""
     var body: some View {
-        Text("This is search View!")
+        NavigationStack {
+            VStack {
+                Form {
+                    TextField("연습", text: $exText)
+                }
+            }
+        }
     }
 }
 
