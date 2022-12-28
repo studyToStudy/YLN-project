@@ -12,7 +12,7 @@ struct MyInfoView: View {
     
     var body: some View {
         
-        let menuList = ["프로필 편집"]
+//        let menuList = ["프로필 편집"]
         
         NavigationView {
             List {

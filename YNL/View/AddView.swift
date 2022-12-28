@@ -6,10 +6,40 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct AddView: View {
+    @StateObject var imagePicker = ImagePicker()
+    let columns = [GridItem(.adaptive(minimum: 100))]
     var body: some View {
-        Text("This is Add View!")
+        NavigationStack {
+            VStack{
+                if !imagePicker.images.isEmpty {
+                    ScrollView {
+                        LazyVGrid(columns: columns, spacing: 20) {
+                            ForEach(0..<imagePicker.images.count, id: \.self) { index in
+                                imagePicker.images[index]
+                                    .resizable()
+                                    .scaledToFit()
+                            }
+                        }
+                    }
+                } else {
+                    Text("사진이 없습니다!")
+                }
+            }
+            .padding()
+            .navigationTitle("사진업로드")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    PhotosPicker(selection: $imagePicker.imageSelections, maxSelectionCount: 10, matching: .images,
+                                 photoLibrary: .shared()) {
+                        Image(systemName: "photo.on.rectangle.angled")
+                            .imageScale(.large)
+                    }
+                }
+            }
+        }
     }
 }
 

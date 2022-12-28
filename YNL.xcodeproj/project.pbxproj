@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141363A4C30FE245814BA79D /* Pods_YNLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912ACBD354E48942CC112A8 /* Pods_YNLTests.framework */; };
+		3D8D7F50A22DA77DEFC8B7FC /* Pods_YNL_YNLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C358AF8A31F4685844F5F5FA /* Pods_YNL_YNLUITests.framework */; };
+		B739982CC1117FE0884B0890 /* Pods_YNL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE138EBE665D50957B6F908 /* Pods_YNL.framework */; };
 		DB3F2C0C295A93060014217D /* YNLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C0B295A93060014217D /* YNLApp.swift */; };
 		DB3F2C0E295A93060014217D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C0D295A93060014217D /* ContentView.swift */; };
 		DB3F2C10295A93070014217D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3F2C0F295A93070014217D /* Assets.xcassets */; };
@@ -23,6 +26,8 @@
 		DB3F2C45295AC5990014217D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C44295AC5990014217D /* AddView.swift */; };
 		DB3F2C47295AC93D0014217D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C46295AC93D0014217D /* OnBoardingView.swift */; };
 		DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */; };
+		DB3F2C4F295BCF220014217D /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = DB3F2C4E295BCF220014217D /* BSImagePicker */; };
+		DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C51295BE4870014217D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1912ACBD354E48942CC112A8 /* Pods_YNLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDB6839F4E31350C9BD5ED8 /* Pods-YNL-YNLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNL-YNLUITests.debug.xcconfig"; path = "Target Support Files/Pods-YNL-YNLUITests/Pods-YNL-YNLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B23C289DDED318FAF79A950 /* Pods-YNL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNL.debug.xcconfig"; path = "Target Support Files/Pods-YNL/Pods-YNL.debug.xcconfig"; sourceTree = "<group>"; };
+		B149E30CC55EAE398A212A16 /* Pods-YNLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNLTests.debug.xcconfig"; path = "Target Support Files/Pods-YNLTests/Pods-YNLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B500B49CEADFB75DBA0D8D9A /* Pods-YNL-YNLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNL-YNLUITests.release.xcconfig"; path = "Target Support Files/Pods-YNL-YNLUITests/Pods-YNL-YNLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C358AF8A31F4685844F5F5FA /* Pods_YNL_YNLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNL_YNLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96423B442C803B9915566F8 /* Pods-YNL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNL.release.xcconfig"; path = "Target Support Files/Pods-YNL/Pods-YNL.release.xcconfig"; sourceTree = "<group>"; };
 		DB3F2C08295A93060014217D /* YNL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3F2C0B295A93060014217D /* YNLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNLApp.swift; sourceTree = "<group>"; };
 		DB3F2C0D295A93060014217D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +74,10 @@
 		DB3F2C44295AC5990014217D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3F2C46295AC93D0014217D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
+		DB3F2C4C295BC0300014217D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DB3F2C51295BE4870014217D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FC9BFA29E3B5A2E40C3B1A09 /* Pods-YNLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNLTests.release.xcconfig"; path = "Target Support Files/Pods-YNLTests/Pods-YNLTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDE138EBE665D50957B6F908 /* Pods_YNL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B739982CC1117FE0884B0890 /* Pods_YNL.framework in Frameworks */,
+				DB3F2C4F295BCF220014217D /* BSImagePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141363A4C30FE245814BA79D /* Pods_YNLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8D7F50A22DA77DEFC8B7FC /* Pods_YNL_YNLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8520FEB1553F99F55E7ED4C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE138EBE665D50957B6F908 /* Pods_YNL.framework */,
+				C358AF8A31F4685844F5F5FA /* Pods_YNL_YNLUITests.framework */,
+				1912ACBD354E48942CC112A8 /* Pods_YNLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F133929D14F7E06F7EAAAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B23C289DDED318FAF79A950 /* Pods-YNL.debug.xcconfig */,
+				C96423B442C803B9915566F8 /* Pods-YNL.release.xcconfig */,
+				2BDB6839F4E31350C9BD5ED8 /* Pods-YNL-YNLUITests.debug.xcconfig */,
+				B500B49CEADFB75DBA0D8D9A /* Pods-YNL-YNLUITests.release.xcconfig */,
+				B149E30CC55EAE398A212A16 /* Pods-YNLTests.debug.xcconfig */,
+				FC9BFA29E3B5A2E40C3B1A09 /* Pods-YNLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB3F2BFF295A93060014217D = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +139,8 @@
 				DB3F2C20295A93070014217D /* YNLTests */,
 				DB3F2C2A295A93070014217D /* YNLUITests */,
 				DB3F2C09295A93060014217D /* Products */,
+				D2F133929D14F7E06F7EAAAB /* Pods */,
+				8520FEB1553F99F55E7ED4C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,8 +157,10 @@
 		DB3F2C0A295A93060014217D /* YNL */ = {
 			isa = PBXGroup;
 			children = (
+				DB3F2C4C295BC0300014217D /* Info.plist */,
 				DB3F2C0B295A93060014217D /* YNLApp.swift */,
 				DB3F2C3A295A94F00014217D /* View */,
+				DB3F2C50295BE44D0014217D /* Model */,
 				DB3F2C0F295A93070014217D /* Assets.xcassets */,
 				DB3F2C14295A93070014217D /* Persistence.swift */,
 				DB3F2C16295A93070014217D /* YNL.xcdatamodeld */,
@@ -162,6 +209,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DB3F2C50295BE44D0014217D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F2C51295BE4870014217D /* ImagePicker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,15 +224,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3F2C31295A93070014217D /* Build configuration list for PBXNativeTarget "YNL" */;
 			buildPhases = (
+				7E2365ADC3358B51D061C138 /* [CP] Check Pods Manifest.lock */,
 				DB3F2C04295A93060014217D /* Sources */,
 				DB3F2C05295A93060014217D /* Frameworks */,
 				DB3F2C06295A93060014217D /* Resources */,
+				9B883340CD04822DB3A2CE91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = YNL;
+			packageProductDependencies = (
+				DB3F2C4E295BCF220014217D /* BSImagePicker */,
+			);
 			productName = YNL;
 			productReference = DB3F2C08295A93060014217D /* YNL.app */;
 			productType = "com.apple.product-type.application";
@@ -186,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3F2C34295A93070014217D /* Build configuration list for PBXNativeTarget "YNLTests" */;
 			buildPhases = (
+				8D064BF0BBA0CE07BB2271B7 /* [CP] Check Pods Manifest.lock */,
 				DB3F2C19295A93070014217D /* Sources */,
 				DB3F2C1A295A93070014217D /* Frameworks */,
 				DB3F2C1B295A93070014217D /* Resources */,
@@ -204,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3F2C37295A93070014217D /* Build configuration list for PBXNativeTarget "YNLUITests" */;
 			buildPhases = (
+				FA068ECAB8772F7802A794B9 /* [CP] Check Pods Manifest.lock */,
 				DB3F2C23295A93070014217D /* Sources */,
 				DB3F2C24295A93070014217D /* Frameworks */,
 				DB3F2C25295A93070014217D /* Resources */,
+				519DDE145512A505F5F52620 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +313,9 @@
 				Base,
 			);
 			mainGroup = DB3F2BFF295A93060014217D;
+			packageReferences = (
+				DB3F2C4D295BCF220014217D /* XCRemoteSwiftPackageReference "BSImagePicker" */,
+			);
 			productRefGroup = DB3F2C09295A93060014217D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -287,6 +353,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		519DDE145512A505F5F52620 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YNL-YNLUITests/Pods-YNL-YNLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YNL-YNLUITests/Pods-YNL-YNLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YNL-YNLUITests/Pods-YNL-YNLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2365ADC3358B51D061C138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YNL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D064BF0BBA0CE07BB2271B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YNLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B883340CD04822DB3A2CE91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YNL/Pods-YNL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YNL/Pods-YNL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YNL/Pods-YNL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA068ECAB8772F7802A794B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YNL-YNLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB3F2C04295A93060014217D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -301,6 +470,7 @@
 				DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */,
 				DB3F2C0E295A93060014217D /* ContentView.swift in Sources */,
 				DB3F2C0C295A93060014217D /* YNLApp.swift in Sources */,
+				DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */,
 				DB3F2C3F295AC3E20014217D /* SearchView.swift in Sources */,
 				DB3F2C18295A93070014217D /* YNL.xcdatamodeld in Sources */,
 			);
@@ -455,6 +625,7 @@
 		};
 		DB3F2C32295A93070014217D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B23C289DDED318FAF79A950 /* Pods-YNL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +634,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YNL/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YNL/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 업로드를 위해 카메라 접근 권한이 필요합니다. 허용하시겠습니까?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 업로드를 위해 앨범 접근 권한이 필요합니다. 허용하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -483,6 +657,7 @@
 		};
 		DB3F2C33295A93070014217D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96423B442C803B9915566F8 /* Pods-YNL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +666,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YNL/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YNL/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 업로드를 위해 카메라 접근 권한이 필요합니다. 허용하시겠습니까?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 업로드를 위해 앨범 접근 권한이 필요합니다. 허용하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -511,6 +689,7 @@
 		};
 		DB3F2C35295A93070014217D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B149E30CC55EAE398A212A16 /* Pods-YNLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +709,7 @@
 		};
 		DB3F2C36295A93070014217D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9BFA29E3B5A2E40C3B1A09 /* Pods-YNLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +729,7 @@
 		};
 		DB3F2C38295A93070014217D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDB6839F4E31350C9BD5ED8 /* Pods-YNL-YNLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +747,7 @@
 		};
 		DB3F2C39295A93070014217D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B500B49CEADFB75DBA0D8D9A /* Pods-YNL-YNLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -621,6 +803,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB3F2C4D295BCF220014217D /* XCRemoteSwiftPackageReference "BSImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mikaoj/BSImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB3F2C4E295BCF220014217D /* BSImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB3F2C4D295BCF220014217D /* XCRemoteSwiftPackageReference "BSImagePicker" */;
+			productName = BSImagePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DB3F2C16295A93070014217D /* YNL.xcdatamodeld */ = {
