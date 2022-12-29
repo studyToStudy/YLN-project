@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct SearchView: View {
-    let array = ["스투시", "나이키", "Arc'Terix"]
+    let array = ["스투시", "나이키"]
     
     @State private var searchText = ""
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationView {
@@ -36,12 +37,25 @@ struct SearchView: View {
                             }) {
                         HStack {
                             Text("YLN")
-                                .foregroundColor(.black)
+                                .foregroundColor(colorScheme == .dark ? .white : .blue)
                             Image(systemName: "folder.fill")
                         }
                     }
                 }
             )
+        }
+    }
+}
+
+struct Theme {
+    static func myBackgroundColor(forScheme scheme: ColorScheme) -> Color {
+        let lightColor = Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))
+        let darckColor = Color.black
+        
+        switch scheme {
+        case .light : return lightColor
+        case .dark : return darckColor
+        @unknown default: return lightColor
         }
     }
 }
