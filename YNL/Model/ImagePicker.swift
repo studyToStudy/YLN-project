@@ -61,6 +61,14 @@ class ImagePicker: ObservableObject {
             image = nil
         }
     }
+    
+    // UIImage convert to NSData
+//    func setUserDefaults(UIImage value: UIImage, _ key: String) {
+    // compressionQuality: 압축된 데이터 퀄리티
+//        let imageData = value.jpegData(compressionQuality: 1.0)
+//        // let imageData = UIImage.jpegData(value)
+//        UserDefaults.standard.set(imageData, forKey: key)
+//    }
 }
 
 //import SwiftUI

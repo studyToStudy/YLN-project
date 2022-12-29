@@ -28,6 +28,8 @@
 		DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */; };
 		DB3F2C4F295BCF220014217D /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = DB3F2C4E295BCF220014217D /* BSImagePicker */; };
 		DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C51295BE4870014217D /* ImagePicker.swift */; };
+		DB3F2C5B295D988E0014217D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C5A295D988E0014217D /* ViewModel.swift */; };
+		DB3F2C5D295DA0620014217D /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C5C295DA0620014217D /* Picker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		DB3F2C4A295AFCA60014217D /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB3F2C4C295BC0300014217D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DB3F2C51295BE4870014217D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DB3F2C5A295D988E0014217D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DB3F2C5C295DA0620014217D /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 		FC9BFA29E3B5A2E40C3B1A09 /* Pods-YNLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNLTests.release.xcconfig"; path = "Target Support Files/Pods-YNLTests/Pods-YNLTests.release.xcconfig"; sourceTree = "<group>"; };
 		FDE138EBE665D50957B6F908 /* Pods_YNL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,6 +164,7 @@
 				DB3F2C4C295BC0300014217D /* Info.plist */,
 				DB3F2C0B295A93060014217D /* YNLApp.swift */,
 				DB3F2C3A295A94F00014217D /* View */,
+				DB3F2C53295D23200014217D /* ViewModel */,
 				DB3F2C50295BE44D0014217D /* Model */,
 				DB3F2C0F295A93070014217D /* Assets.xcassets */,
 				DB3F2C14295A93070014217D /* Persistence.swift */,
@@ -213,8 +218,17 @@
 			isa = PBXGroup;
 			children = (
 				DB3F2C51295BE4870014217D /* ImagePicker.swift */,
+				DB3F2C5C295DA0620014217D /* Picker.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB3F2C53295D23200014217D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB3F2C5A295D988E0014217D /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,8 +481,10 @@
 				DB3F2C47295AC93D0014217D /* OnBoardingView.swift in Sources */,
 				DB3F2C41295AC4A70014217D /* InterestView.swift in Sources */,
 				DB3F2C15295A93070014217D /* Persistence.swift in Sources */,
+				DB3F2C5B295D988E0014217D /* ViewModel.swift in Sources */,
 				DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */,
 				DB3F2C0E295A93060014217D /* ContentView.swift in Sources */,
+				DB3F2C5D295DA0620014217D /* Picker.swift in Sources */,
 				DB3F2C0C295A93060014217D /* YNLApp.swift in Sources */,
 				DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */,
 				DB3F2C3F295AC3E20014217D /* SearchView.swift in Sources */,

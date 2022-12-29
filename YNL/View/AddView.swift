@@ -12,6 +12,7 @@ struct AddView: View {
     @StateObject var imagePicker = ImagePicker()
     @State private var selectedItems: [PhotosPickerItem] = []
     @State private var selectedItem: PhotosPickerItem?
+    @State private var image: UIImage?
     
     let columns = [GridItem(.adaptive(minimum: 100))]
     var body: some View {
@@ -24,6 +25,7 @@ struct AddView: View {
                                 imagePicker.images[index]
                                     .resizable()
                                     .scaledToFit()
+                                    .aspectRatio(contentMode: .fit)
                             }
                         }
                     }
@@ -35,27 +37,28 @@ struct AddView: View {
             .navigationTitle("사진업로드")
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
-//                    PhotosPicker(selection: $imagePicker.imageSelections, maxSelectionCount: 10, matching: .images,
-//                                 photoLibrary: .shared()) {
-//                         Image(systemName: "photo.on.rectangle.angled")
-//                            .imageScale(.large)
-//                    }
-                    PhotosPicker(selection: $imagePicker.imageSelections, matching: .any(of:
-                                                                            [.images, .not(.livePhotos)])) {
+                    //                    PhotosPicker(selection: $imagePicker.imageSelections, maxSelectionCount: 10, matching: .images,
+                    //                                 photoLibrary: .shared()) {
+                    //                         Image(systemName: "photo.on.rectangle.angled")
+                    //                            .imageScale(.large)
+                    //                    }
+                    PhotosPicker(selection: $imagePicker.imageSelections, matching: .any(of: [.images, .not(.livePhotos)])) {
                         Label("Select a photo", systemImage: "photo")
                     }
-                        .tint(.purple)
-                        .controlSize(.large)
-                        .buttonStyle(.borderedProminent)
+                    .tint(.blue)
+                    .controlSize(.large)
+                    .buttonStyle(.borderedProminent)
+                    .labelStyle(.automatic)
                 }
             }
         }
     }
 }
 
-
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
         AddView()
+            .environmentObject(ViewModel())
     }
 }
+

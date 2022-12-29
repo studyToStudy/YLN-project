@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @EnvironmentObject var vm: ViewModel
 //    @Environment(\.managedObjectContext) private var viewContext
     
     //    @FetchRequest(
@@ -49,7 +50,7 @@ struct ContentView: View {
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            ContentView().environmentObject(ViewModel())
         }
     }
 }
