@@ -12,3 +12,9 @@ enum Picker {
         case library, camera
     }
 }
+
+// StorageType 설정
+enum StorageType {
+    case userDefaults
+    case fileSystem
+}

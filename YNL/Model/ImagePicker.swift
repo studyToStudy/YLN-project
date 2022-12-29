@@ -22,7 +22,7 @@ class ImagePicker: ObservableObject {
             }
         }
     }
-
+    
     @Published var imageSelections: [PhotosPickerItem] = [] {
         didSet {
             Task {
@@ -33,7 +33,7 @@ class ImagePicker: ObservableObject {
             }
         }
     }
-
+    
     func loadTransferable(from imageSelection: [PhotosPickerItem]) async throws {
         do {
             for imageSelection in imageSelection {
@@ -47,9 +47,9 @@ class ImagePicker: ObservableObject {
             print(error.localizedDescription)
         }
     }
-
+    
     func loadTransferable(from imageSelection: PhotosPickerItem?) async throws {
-//        print(Image.transferRepresentation)
+        //        print(Image.transferRepresentation)
         do {
             if let data = try await imageSelection?.loadTransferable(type: Data.self) {
                 if let uiImage = UIImage(data: data) {
@@ -61,7 +61,7 @@ class ImagePicker: ObservableObject {
             image = nil
         }
     }
-    
+}
     // UIImage convert to NSData
 //    func setUserDefaults(UIImage value: UIImage, _ key: String) {
     // compressionQuality: 압축된 데이터 퀄리티
@@ -69,7 +69,7 @@ class ImagePicker: ObservableObject {
 //        // let imageData = UIImage.jpegData(value)
 //        UserDefaults.standard.set(imageData, forKey: key)
 //    }
-}
+
 
 //import SwiftUI
 //import PhotosUI

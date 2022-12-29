@@ -30,6 +30,7 @@
 		DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C51295BE4870014217D /* ImagePicker.swift */; };
 		DB3F2C5B295D988E0014217D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C5A295D988E0014217D /* ViewModel.swift */; };
 		DB3F2C5D295DA0620014217D /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C5C295DA0620014217D /* Picker.swift */; };
+		DB3F2C5F295DF0F80014217D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F2C5E295DF0F80014217D /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		DB3F2C51295BE4870014217D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DB3F2C5A295D988E0014217D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		DB3F2C5C295DA0620014217D /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		DB3F2C5E295DF0F80014217D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		FC9BFA29E3B5A2E40C3B1A09 /* Pods-YNLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNLTests.release.xcconfig"; path = "Target Support Files/Pods-YNLTests/Pods-YNLTests.release.xcconfig"; sourceTree = "<group>"; };
 		FDE138EBE665D50957B6F908 /* Pods_YNL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -206,6 +208,7 @@
 				DB3F2C46295AC93D0014217D /* OnBoardingView.swift */,
 				DB3F2C3B295AC0B30014217D /* FeedView.swift */,
 				DB3F2C3E295AC3E20014217D /* SearchView.swift */,
+				DB3F2C5E295DF0F80014217D /* SearchBarView.swift */,
 				DB3F2C44295AC5990014217D /* AddView.swift */,
 				DB3F2C40295AC4A70014217D /* InterestView.swift */,
 				DB3F2C42295AC4F70014217D /* MyInfoView.swift */,
@@ -485,6 +488,7 @@
 				DB3F2C4B295AFCA60014217D /* ProfilEditView.swift in Sources */,
 				DB3F2C0E295A93060014217D /* ContentView.swift in Sources */,
 				DB3F2C5D295DA0620014217D /* Picker.swift in Sources */,
+				DB3F2C5F295DF0F80014217D /* SearchBarView.swift in Sources */,
 				DB3F2C0C295A93060014217D /* YNLApp.swift in Sources */,
 				DB3F2C52295BE4870014217D /* ImagePicker.swift in Sources */,
 				DB3F2C3F295AC3E20014217D /* SearchView.swift in Sources */,
