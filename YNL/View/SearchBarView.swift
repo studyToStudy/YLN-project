@@ -1,10 +1,3 @@
-//
-//  SearchBarView.swift
-//  YNL
-//
-//  Created by 이정후 on 2022/12/30.
-//
-
 import SwiftUI
  
 struct SearchBarView: View {
@@ -37,9 +30,3 @@ struct SearchBarView: View {
         .padding(.horizontal)
     }
 }
-
-//struct SearchBarView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SearchBarView()
-//    }
-//}

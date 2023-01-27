@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SearchView: View {
-    let array = ["스투시", "나이키"]
+    let array = [""]
     
     @State private var searchText = ""
     @Environment(\.colorScheme) var colorScheme
@@ -31,18 +31,6 @@ struct SearchView: View {
                 }
             }
             .navigationBarTitle("검색기능")
-            .navigationBarItems(trailing:
-                        HStack {
-                            Button(action: {
-                            }) {
-                        HStack {
-                            Text("YLN")
-                                .foregroundColor(colorScheme == .dark ? .white : .blue)
-                            Image(systemName: "folder.fill")
-                        }
-                    }
-                }
-            )
         }
     }
 }

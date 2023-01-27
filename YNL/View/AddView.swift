@@ -10,7 +10,7 @@ import PhotosUI
 
 struct AddView: View {
     @StateObject var imagePicker = ImagePicker()
-    @State private var selectedItems: [PhotosPickerItem] = []
+//    @State private var selectedItems: [PhotosPickerItem] = []
     @State private var selectedItem: PhotosPickerItem?
     @State private var image: UIImage?
     
