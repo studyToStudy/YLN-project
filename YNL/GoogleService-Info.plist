@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>302573594505-omb2nueesofdu94jtt4cdgfma0u8plpj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.302573594505-omb2nueesofdu94jtt4cdgfma0u8plpj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMfepZsk2oxU5m7Y5uRiKQucuO36mk7L4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>302573594505</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>whohoo.YNL</string>
+	<key>PROJECT_ID</key>
+	<string>youln-fc5a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>youln-fc5a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:302573594505:ios:391d1fb0314c042c096358</string>
+</dict>
+</plist>
